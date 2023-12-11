@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Your Project - Loading</title>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="Styles/style.css">
+  <link rel="stylesheet" href="Styles/navbar.css" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" type="text/css" media="all" />
+  
+  <!-- Custom Js -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.26.0/babel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react/17.0.1/umd/react.production.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/17.0.1/umd/react-dom.production.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react-router-dom/5.2.0/react-router-dom.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/react-router/5.2.0/react-router.min.js"></script>
+</head>
+
+<body>
+  <div id="root">
+    <!-- Index Loading -->
+    <div class="loading-page">
+      <img src="Images/loading-animation.gif" alt="loading" />
+      <br>
+      <p>Loading...</p>
+    </div>
+  </div>
+  <!-- Project Components-->
+  <script src="Components/pages/404.jsx" type="text/babel" charset="utf-8"></script>
+  <script src="Components/pages/home.jsx" type="text/babel" charset="utf-8"></script>
+  <script src="Components/navbar.jsx" type="text/babel" charset="utf-8"></script>
+  <!-- 
+  Add your component file using this template: ><
+      <script src="Components/pages/Component.jsx" type="text/babel" charset="utf-8"></script>
+   -->
+  <!-- Routes Component -->
+  <script src="Components/routes.jsx" type="text/babel" charset="utf-8"></script>
+
+</body>
+</html>
