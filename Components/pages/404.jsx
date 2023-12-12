@@ -4,7 +4,7 @@ function Page404() {
   return (
     <div className="Page404">
       <h2>404 - Page not found</h2>
-      <Link to="/">Return to home</Link>
+      <Link to="/home">Return to home</Link>
     </div>
   )
 }
